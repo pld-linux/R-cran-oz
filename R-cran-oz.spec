@@ -4,7 +4,7 @@ Summary:	Plot the Australian coastline and states
 Summary(pl):	Rysuje Australijsk± liniê brzegow± oraz stany
 Name:		R-cran-%{modulename}
 Version:	1.0r10
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
