@@ -1,7 +1,7 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	oz
 Summary:	Plot the Australian coastline and states
-Summary(pl):	Rysuje Australijsk± liniê brzegow± oraz stany
+Summary(pl):	Rysowanie australijskiej linii brzegowej i stanów
 Name:		R-cran-%{modulename}
 Version:	1.0r10
 Release:	1
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Plot the Australian coastline and states.
 
 %description -l pl
-Rysuje Australijsk± liniê brzegow± oraz stany.
+Rysowanie australijskiej linii brzegowej i stanów.
 
 %prep
 %setup -q -c
