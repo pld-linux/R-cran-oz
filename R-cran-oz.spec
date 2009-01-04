@@ -9,8 +9,8 @@ License:	GPL
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
 # Source0-md5:	6a5a128dd37ba36a59246e00ece159d5
-BuildRequires:	R-base >= 2.4.0
-Requires(post,postun):	R-base >= 2.4.0
+BuildRequires:	R >= 2.8.1
+Requires(post,postun):	R >= 2.8.1
 Requires(post,postun):	perl-base
 Requires(post,postun):	textutils
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
