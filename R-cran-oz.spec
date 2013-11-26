@@ -3,12 +3,12 @@
 Summary:	Plot the Australian coastline and states
 Summary(pl.UTF-8):	Rysowanie australijskiej linii brzegowej i stanów
 Name:		R-cran-%{modulename}
-Version:	1.0r10
-Release:	2
+Version:	1.0r19
+Release:	1
 License:	GPL
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
-# Source0-md5:	6a5a128dd37ba36a59246e00ece159d5
+# Source0-md5:	9a05f3152e456412d0cc649309f52ff6
 BuildRequires:	R >= 2.8.1
 Requires(post,postun):	R >= 2.8.1
 Requires(post,postun):	perl-base
